@@ -1,0 +1,34 @@
+@import url('./_type/header__lang_active.css');
+
+.header__lang {
+    margin: 0;
+    /**position: absolute;
+    right: 0px;
+    bottom: 0px;**/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: right;
+    color: white;  
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__lang:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s linear 0s;
+} 
+
+.header__lang_active {
+    margin-right: 18px;
+    right: 48px;
+    text-decoration-line: underline;
+
+}
+@media all and (max-width: 767px) {
+    .header__lang {
+        font-size: 1.125rem;
+        line-height: 0.9444;
+    }
+}

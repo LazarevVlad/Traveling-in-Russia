@@ -1,0 +1,8 @@
+.page__places {
+    margin: 92px auto 0px;
+}
+@media all and (max-width: 1023px) {
+    .page__places {
+        margin-top: 64px;
+    }
+}

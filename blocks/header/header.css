@@ -1,0 +1,25 @@
+@import url('./__logo/header__logo.css');
+@import url('./__list/header__list.css');
+@import url('./__page/page__header.css');
+
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;  
+}
+@media all and (max-width: 1023px) {
+    .header {
+        width: 95%;
+    }
+}
+@media all and (max-width: 767px) {
+    .header {
+        max-width: 343px;
+    }
+}
+@media all and (max-width: 374px) {
+    .header {
+        max-width: 288px;
+    }
+}

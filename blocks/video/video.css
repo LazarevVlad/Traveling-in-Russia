@@ -1,0 +1,32 @@
+@import url('./__page/page__video.css');
+@import url('./__title/section__title.css');
+@import url('./__subtitle/section__subtitle.css');
+@import url('./__container/video__container.css');
+
+.video {
+    max-width: 1184px;
+    padding: 0;
+}
+@media all and (max-width: 1279px) {
+    .video {
+        max-width: 928px;
+    }
+}
+@media all and (max-width: 1023px) {   
+    .video {
+        max-width: 720px;
+    }
+}
+@media all and (max-width: 767px) {  
+    .video {
+        max-width: 343px;
+    }
+}
+@media all and (max-width: 374px) {
+    .video {
+        max-width: 288px;
+    }
+}
+
+
+

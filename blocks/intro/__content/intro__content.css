@@ -1,0 +1,16 @@
+
+.intro__content {
+    margin-top: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: #FFFFFF;    
+    
+}
+@media all and (max-width: 767px) {
+    .intro__content {
+        font-size: 1rem;
+        line-height: 1.6875;
+    }
+}

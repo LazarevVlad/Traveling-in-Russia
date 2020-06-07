@@ -1,0 +1,33 @@
+@import url('./__page/page__cover.css');
+@import url('./__container/cover__container.css');
+
+
+
+.cover {
+    max-width: 1184px;
+}
+@media all and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+    }
+}
+@media all and (max-width: 1023px) {   
+    .cover {
+        width: 768px;
+    }
+}
+@media all and (max-width: 1023px) {   
+    .cover {
+        max-width: 768px;
+    }
+}
+@media all and (max-width: 767px) {  
+    .cover {
+        max-width: 375px;
+    }
+}
+@media all and (max-width: 374px) {
+    .cover {
+        max-width: 320px;
+    }
+}

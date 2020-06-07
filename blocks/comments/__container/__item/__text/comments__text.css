@@ -1,0 +1,18 @@
+.comments__text {
+    margin: 42px auto 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 1023px) {   
+    .comments__text {
+        margin-top: 24px;
+        order: 3;
+        font-size: 1rem;
+        line-height: 1.4375;
+    }
+}

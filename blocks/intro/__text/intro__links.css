@@ -1,0 +1,9 @@
+@import url('./intro__text.css');
+@import url('./intro__numbers.css');
+
+.intro__links {
+    width: 100%;
+    margin-top: 35px;
+    list-style-type: none; 
+    padding: 0;
+}
